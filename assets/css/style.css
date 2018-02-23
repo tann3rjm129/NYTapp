@@ -1,0 +1,12 @@
+
+.fonts { font-family: 'Poiret One', cursive;
+		font-family: 'Shadows Into Light Two', cursive;
+		font-family: 'Coustard', serif;
+		font-family: 'Bellefair', serif; }
+
+.jumbotron {background-image: url(../images/artsy-skyline.jpg);
+	background-position: center;
+	background-size: stretch;
+	margin-bottom: -120px;
+	padding-bottom: 300px;
+}
