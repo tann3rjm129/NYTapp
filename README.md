@@ -4,7 +4,7 @@ This application uses the NYT API to populate a web page with articles based on 
 
 -Uses javascript, jquery, api's. 
 
-Was a group project, with split between the front and back ends. 
+Was a group project, split between the front and back ends. 
 
 Enjoy.
 
