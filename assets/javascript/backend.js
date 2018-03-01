@@ -34,6 +34,7 @@ $(document).ready(function (){
 
             $("#topArticles").empty();
 
+
             for ( var i=0; i<numberOfRecords; i++) {
 
                 var articleBlock = $("<div>");
@@ -46,7 +47,7 @@ $(document).ready(function (){
                 ("<p class='card-body card-text lines'>"+ response.response.docs[i].pub_date +"</p>") +
                 ("<p class='card-body card-text lines'>"+ response.response.docs[i].snippet +"</p>") +
                 ("<p class='card-body card-text lines'>"+ response.response.docs[i].byline.original +"</p>") +
-                ("<a href='"+ response.response.docs[i].web_url +" class='btn btn-danger card-body lines' style='margin-bottom:20px; margin-left: 20px;''>Read more here</a>"));
+                ("<a href='"+response.response.docs[i].web_url+"' class='btn btn-danger card-body lines' style='margin-bottom:20px; margin-left: 20px;''>Read more here</a>"));
 
                 $("#topArticles").append(articleBlock);
             };
